@@ -8,6 +8,8 @@ f = open('location.csv', 'w')
 w = csv.writer(f, delimiter=',')
 
 
+csvw.writerow(['What are the Pokemon (up to Gen 3) in each habitat?'])
+w.writerow(['How many Pokemon (up to Gen 3) are in each habitat?'])
 csvw.writerow(['Location','Pokemon'])
 w.writerow(['Location','# of Pokemon'])
 
